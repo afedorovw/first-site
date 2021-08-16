@@ -1,0 +1,77 @@
+@media (min-width: 1680px) and (max-width: 1920px) {
+
+    /*Под мобилу (корректировать) 1080х2340*/
+
+    #logo {
+       padding-left: 300px
+    }
+
+    .menu {
+        padding-left: 350px;
+    }
+
+    .title__container {
+        margin-top: 400px;
+    }
+
+    #main_1{
+    height: 50%;
+    }
+
+    #about_me {
+        margin-top: 150px;
+    }
+
+    #skills {
+        height: 25%;
+    }
+
+    #cases {
+        margin-left: 150px;
+    }
+
+    .cases_img {
+        margin-left: -150px;
+    }
+
+    .cases_head {
+        padding: 100px 0px 40px 90px;
+    }
+
+    .cases_text {
+        padding-left: 90px;
+    }
+
+    #cases ul {
+        padding-left: 180px;
+    }
+
+    #cases input {
+        left: 180px;
+    }
+
+    #price {
+        margin-left: 535px;
+    }
+
+    #stat {
+        float: left;
+        height: 23%;
+    }
+
+    #reviews {
+        padding-left: 555px;
+    }
+
+    #contacts {
+        height: 40%;
+    }
+
+    .contact_icon {
+        padding-left: 655px;
+    }
+
+    .contacts_input {
+        padding-left: 520px;
+    }
+}
