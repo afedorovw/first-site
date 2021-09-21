@@ -1,5 +1,17 @@
 /*"use strict"*/
 
+window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  };
+
+$(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
+
 $(document).ready(function() {
 
     new WOW().init();
