@@ -25,16 +25,6 @@
         </div>
     </div>
 
-    <script>
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  }
-    </script>
-
 <header>
     <nav>
         <div id="logo" class="section"><a href="#main_1">Александр</a></div>
@@ -48,6 +38,23 @@
         </ul></div>
     </nav>
 </header>
+
+<div id="myModal" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 id="myModal-title" class="modal-title">Есть проблемО</h5>
+      </div>
+      <div class="modal-body">
+        <p>Мой первый проект.<br>Более корректное отображение возможно на экранах 1920*1080.<br>Мобильная версия сайта не готова.<br>Правки вносятся по мере возможности.<br>Спасибо за понимание)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <div id="main_1">
         <div class="title__container">
@@ -243,7 +250,7 @@
     </div>
   </div>
   <button type="submit" class="btn btn-primary">Отправить</button>
-</form>
+<!--</form>-->
       </div>
     </div>
   </div>
