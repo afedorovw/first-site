@@ -89,36 +89,36 @@ var number = document.querySelector('.number'),
 
 
 
-function raschitat() {
+function calc() {
 type_site  = document.getElementById('type_site').value;
 switch (type_site) {
    case "vis":
-      cena = 1;
+      price = 1;
       break
    case "promp":
-      cena = 2}
+      price = 2}
 
     design  = document.getElementById('design').value;
 switch (design) {
    case "maket":
-      cena = 1;
+      price = 1;
       break
    case "ntmaket":
-      cena = 2}
+      price = 2}
 
     adaptive  = document.getElementById('adaptive').value;
 switch (adaptive) {
    case "pk":
-      cena = 1;
+      price = 1;
       break
    case "pkm":
-      cena = 2}
+      price = 2}
 
 design  = document.getElementById('design').value;
 adaptive  = document.getElementById('adaptive').value;
 
-sroki = parseFloat (design) + parseFloat (adaptive);
-document.getElementById('sroki').innerHTML = "Сроки: "+ sroki +" дн";
-stoimost = sroki + type_site;
-document.getElementById('stoimost').innerHTML = "Стоимость: "+ stoimost +" р.";
+time = parseFloat (design) + parseFloat (adaptive);
+document.getElementById('sroki').innerHTML = "Сроки: "+ time +" дн";
+full_price = time + type_site;
+document.getElementById('full_price').innerHTML = "Стоимость: "+ full_price +" р.";
 };
