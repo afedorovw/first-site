@@ -87,38 +87,32 @@ var number = document.querySelector('.number'),
         });
 
 
-
-
 function calc() {
-type_site  = document.getElementById('type_site').value;
-switch (type_site) {
-   case "vis":
-      price = 1;
-      break
-   case "promp":
-      price = 2}
+    type_site  = document.getElementById('type_site').value;
+    switch(type_site) {
+        case "vis":
+            type_site = 1000;
+            break
+        case "promp":
+            type_site = 1500}
 
     design  = document.getElementById('design').value;
-switch (design) {
-   case "maket":
-      price = 1;
-      break
-   case "ntmaket":
-      price = 2}
+    switch(design) {
+        case "maket":
+            design = 1000;
+            break
+        case "ntmaket":
+            design = 2000}
 
     adaptive  = document.getElementById('adaptive').value;
-switch (adaptive) {
-   case "pk":
-      price = 1;
-      break
-   case "pkm":
-      price = 2}
+        switch(adaptive) {
+            case "pk":
+                adaptive = 500;
+                break
+            case "pkm":
+                adaptive = 2000}
 
-design  = document.getElementById('design').value;
-adaptive  = document.getElementById('adaptive').value;
-
-time = parseFloat (design) + parseFloat (adaptive);
-document.getElementById('sroki').innerHTML = "Сроки: "+ time +" дн";
-full_price = time + type_site;
-document.getElementById('full_price').innerHTML = "Стоимость: "+ full_price +" р.";
-};
+    price = parseFloat(design) + parseFloat(adaptive) +  parseFloat(type_site);
+    document.getElementById('price_m').innerHTML = "Стоимость: "+ price +" рублей";
+    
+    };
