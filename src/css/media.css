@@ -1,0 +1,98 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    nav {
+        height: 80px;
+        width: 100%;
+    }
+
+    #logo {
+        padding-left: 150px;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    .menu {
+        padding-left: 150px;
+    }
+
+    .menu li {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .title__container {
+        margin-top: 400px;
+    }
+
+    #main_1{
+        height: 1050px;
+        width: 1550px;
+    }
+
+    #about_me {
+        margin-top: 150px;
+        margin-left: 300px;
+    }
+
+    #skills {
+        height: 500px;
+        width: 1500px;
+    }
+
+
+    .cases_img {
+        margin-left: -200px;
+    }
+
+    .cases_head {
+        padding: 100px 0px 40px 90px;
+    }
+
+    .cases_text {
+        padding-left: 90px;
+    }
+
+    #cases ul {
+        padding-left: 180px;
+    }
+
+    #cases input {
+        left: 180px;
+    }
+
+    #price {
+        margin-left: 335px;
+    }
+
+    #stat {
+        height: 500px;
+        width: 1500px;
+    }
+
+    #reviews {
+        padding-left: 555px;
+    }
+
+    #contacts {
+        height: 800px;
+        width: 1500px;
+    }
+
+    .contact_icon {
+        padding-left: 500px;
+    }
+
+    .contacts_input {
+        padding-left: 100px;
+    }
+
+    .map {
+        height: 280px;
+        width: 1500px;
+    }
+
+    footer {
+        height: 70px;
+        width: 1500px;
+    }
+}
