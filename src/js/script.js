@@ -8,10 +8,6 @@ window.onload = function () {
     }, 500);
   };
 
-$(window).on('load',function(){
-        $('#myModal').modal('show');
-    });
-
 $(document).ready(function() {
 
     new WOW().init();
@@ -28,7 +24,7 @@ $(document).ready(function() {
 
     $.ajax({
         type: "POST",
-        url: "php/test.php",
+        url: "php/mail.php",
         data: $(this).serialize()
     }).done(function(){
         $(this).find("input").val("");
@@ -39,13 +35,16 @@ $(document).ready(function() {
 
     });
 
+    /*
+    $('.inputContact').click(function() {
+            $(this).delay('fast').hide('slow').delay(1000).show(5000);
+            });
+    */
+
     $('#visit').click(function() {
         alert("Сайт в разработке");
         });
 
-    $('.inputContact').click(function() {
-        $(this).delay('fast').hide('slow').delay(1000).show(5000);
-        });
 
     let options = {threshold: [0.5]};
     let observer = new IntersectionObserver (onEntry, options);
